@@ -1,0 +1,21 @@
+{
+  "name": "throw",
+  "version": "0.0.0",
+  "description": "A simple utility that helps throw exceptions.",
+  "author": "Anton Rudeshko <anton@rudeshko.com> (http://www.rudeshko.com)",
+  "homepage": "https://github.com/anton-rudeshko/node-throw",
+  "main": "index.js",
+  "keywords": [
+    "throw",
+    "error",
+    "exception"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anton-rudeshko/node-throw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anton-rudeshko/node-throw/issues"
+  },
+  "license": "MIT"
+}
