@@ -1,6 +1,6 @@
 {
   "name": "throw",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple utility that helps throw exceptions.",
   "author": "Anton Rudeshko <anton@rudeshko.com> (http://www.rudeshko.com)",
   "homepage": "https://github.com/anton-rudeshko/node-throw",
