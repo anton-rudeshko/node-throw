@@ -3,7 +3,7 @@
 You can't use `throw` statement in expressions in JavaScript:
 
 ```js
-arg = arg || throw new Error('arg is required'); 
+arg = arg || throw new Error('arg is required');
 // => SyntaxError: Unexpected token throw
 ```
 
@@ -14,13 +14,19 @@ var thr = require('throw');
 
 // ...
 
-arg = arg || thr('arg is required'); 
+arg = arg || thr('arg is required');
 ```
 
 Messages can contain `printf`-like placeholders:
 
 ```js
-arg = arg || thr('"%s" is required', argName); 
+arg = arg || thr('"%s" is required', argName);
+```
+
+You can specify instance of `Error` instead of message:
+
+```js
+arg = arg || thr(new Error('arg is required'));
 ```
 
 ## Installation
