@@ -29,6 +29,12 @@ You can specify instance of `Error` instead of message:
 arg = arg || thr(new Error('arg is required'));
 ```
 
+Or parametrize error class:
+
+```js
+arg = arg || thr(Error, 'arg is required');
+```
+
 ## Installation
 
 ```bash
