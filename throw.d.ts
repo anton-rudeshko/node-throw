@@ -1,4 +1,4 @@
-function thr(error: Error): any;
-function thr(format: string, ...params: any[]): any;
-function thr<E>(errorClass: Constructor<E>, ...args: any[]): any;
+function thr(error: Error): never;
+function thr(format: string, ...params: any[]): never;
+function thr<E>(errorClass: Constructor<E>, ...args: any[]): never;
 export default thr;
