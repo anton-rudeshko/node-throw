@@ -5,6 +5,7 @@
   "author": "Anton Rudeshko <anton@rudeshko.com> (http://www.rudeshko.com)",
   "homepage": "https://github.com/anton-rudeshko/node-throw",
   "main": "index.js",
+  "types": "./throw.d.ts",
   "keywords": [
     "throw",
     "error",
